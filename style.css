@@ -1,0 +1,28 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/*main page*/
+.nav{
+    background-color: purple;
+    padding: 20px;
+    color: white;
+}
+.nav a{
+    color: white;
+}
+section{
+    padding: 4vw;
+}
+.fot{
+    padding: 5vw;
+    background-color: purple;
+}
+.fot p{
+    color: white;
+}
+.back-home{
+    text-decoration: none;
+}
+/*main page end*/
+
