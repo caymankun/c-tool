@@ -1,3 +1,8 @@
+input.addEventListener("keydown", (e) => {
+        if( e.keyCode === 13 ){
+                enter();
+        }
+});
 function enter(){
         const xboxid = document.getElementById('xboxid').value;
         fetch('https://api.geysermc.org/v2/xbox/xuid/' + xboxid )
