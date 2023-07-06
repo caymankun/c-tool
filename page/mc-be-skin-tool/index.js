@@ -1,3 +1,4 @@
+const input = document.getElementsByClassName('xboxid');
 input.addEventListener("keydown", (e) => {
         if( e.keyCode === 13 ){
                 enter();
