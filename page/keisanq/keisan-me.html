@@ -47,7 +47,8 @@
             </h1>
             <div class="hont">
                 <b id="qwes"></b> <b id="kigo"></b> <b id="qwesu"></b>
-        <input type="text" id="input" onkeypress="if(event.key === 'Enter') ok()"><button onclick="ok()">OK</button>
+        <input type="text" id="input" onkeypress="if(event.key === 'Enter') { ok(); return false; }">
+<button onclick="ok()">OK</button>
         <p id="resp"></p>
         </div>
         </section>
