@@ -49,9 +49,14 @@
             input.value = ""; // 入力欄を空にする
             math1(); // 新しい問題を生成
         }
-function playmath(){
-    if( window.event.keyCode == 13 ){
-      math1();
-    }
-  }
+// Enterキーが押されたときの処理
+function handleKeyPress(event) {
+    if (event.key === "Enter") {
+        ok(); // 問題の解答処理を呼び出す
+    }
+}
+
+// キープレスイベントを監視
+document.getElementById('input').addEventListener('keypress', handleKeyPress);
+
         
