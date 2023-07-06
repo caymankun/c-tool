@@ -1,6 +1,11 @@
 
         let re1, re2, kigou; // 変数を関数の外部で宣言
         math1(); // 初期の問題を生成
+function playmath(){
+    if( window.event.keyCode == 13 ){
+      math1();
+    }
+  }
         function math1() {
             let panel = document.getElementById('qwes');
             let panelkigo = document.getElementById('kigo');
