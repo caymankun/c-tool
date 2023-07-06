@@ -25,4 +25,11 @@ section{
     text-decoration: none;
 }
 /*main page end*/
+.bt{
+padding: 15px;
+    border: solid 2px black;
+    outline: none;
+    border-radius: 50px;
+    
+}
 
