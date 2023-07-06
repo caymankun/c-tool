@@ -58,5 +58,4 @@ function handleKeyPress(event) {
 
 // キープレスイベントを監視
 document.getElementById('input').addEventListener('keypress', handleKeyPress);
-
         
