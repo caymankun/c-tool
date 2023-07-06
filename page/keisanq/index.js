@@ -1,9 +1,4 @@
-input.addEventListener("keydown", event => {
-  if (event.isComposing || event.keyCode === 229) {
-    return;
-}
-  math1();
-});
+
         let re1, re2, kigou; // 変数を関数の外部で宣言
         math1(); // 初期の問題を生成
         function math1() {
