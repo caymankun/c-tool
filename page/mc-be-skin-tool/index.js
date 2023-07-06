@@ -1,4 +1,10 @@
-
+const input = document.getElementById('xboxid');
+input.addEventListener("keydown", event => {
+  if (event.isComposing || event.keyCode === 229) {
+    return;
+  }
+  enter();
+});
 function enter(){
         const xboxid = document.getElementById('xboxid').value;
         fetch('https://api.geysermc.org/v2/xbox/xuid/' + xboxid )
