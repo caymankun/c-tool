@@ -1,0 +1,19 @@
+#xboxid{
+    padding: 15px;
+    border: solid 2px black;
+    outline: none;
+    border-radius: 50px;
+}
+.xboxid-bt{
+    padding: 14px;
+    border: solid 2px black;
+    outline: none;
+    border-radius: 50px;
+    background-color: white;
+}
+.skin-image{
+    padding: 15px;
+}
+.hide{
+    display: none;
+}
